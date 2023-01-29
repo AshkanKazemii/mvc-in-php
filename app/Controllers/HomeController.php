@@ -8,7 +8,7 @@ class HomeController
     public function index()
     {
 
-        return __DIR__ . "/../Views/index.php" ;
+        return include_once __DIR__ . "/../Views/index.php" ;
     }
 
     public function showArticle()
@@ -18,6 +18,6 @@ class HomeController
             "authors" => "ashkan kazemi"
         ];
 
-        return __DIR__ . "/../Views/showArticle.php" ;
+        return include_once __DIR__ . "/../Views/showArticle.php" ;
     }
 }

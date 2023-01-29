@@ -13,8 +13,8 @@
             <th>authors</th>
         </tr>
         <tr>
-            <td><?php htmlspecialchars($article['name']) ?></td>
-            <td><?php htmlspecialchars($article['authors']) ?></td>
+            <td><?php echo htmlspecialchars($article['name']) ?></td>
+            <td><?php echo htmlspecialchars($article['authors']) ?></td>
         </tr>
     </table>
 </body>
