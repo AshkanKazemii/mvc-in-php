@@ -8,12 +8,12 @@ class UserTable implements DBInterface
 {
     public function create(array $data)
     {
-        // query : create user
+        // query builder : create user
     }
 
     public function delete(array|int $data)
     {
-        // query : delete user
+        // query builder : delete user
     }
 
 }
